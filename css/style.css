@@ -1,0 +1,287 @@
+  @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* Universal Selection */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(17,17,17);
+    background: linear-gradient(225deg, rgba(17,17,17,1) 0%, rgba(29,29,29,1) 100%);
+}
+
+.logo {
+    width:  100px;
+    height: 100px;
+ margin: 10px 30px 10px 20px;
+}
+
+.logo a:hover {
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 16px;
+    color: #1E5128;
+}
+
+.headlink {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 35px;
+    margin: 0 40px 0 0 ;
+    color: white;
+    
+}
+
+.headlink:hover {
+    border: 2px solid ;
+    transition: 1s;
+    
+}
+.background{
+    height: auto;
+}
+
+.img1 {
+color: greenyellow;
+
+}
+ .p1{
+text-align: center;
+color: rgb(134, 210, 35);
+ }
+ .p2{
+    text-align: center;
+    color: black;
+    
+ }
+ .element {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 75px;
+    animation-name: stretch;
+    animation-duration: 2.0s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes stretch {
+
+    0% {
+        transform: scale(.5);
+        border-radius: 50%;
+    }
+    50% {
+    }
+    100% {
+        transform: scale(2.0);
+    }
+    }
+
+ .rick {
+width: 250px;
+height: 250px;
+
+ }
+    .flip-card {
+        background-color: transparent;
+    width: 300px;
+    height: 300px;
+   margin-bottom: 200px;
+   margin-left: 600px;
+    perspective: 1000px; 
+  }
+  
+    .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+    .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+    .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+     backface-visibility: hidden;
+  }
+  
+  
+  
+  .flip-card-back {
+    background-color: rgb(99, 229, 33);
+    color: white;
+    text-decoration: underline white;
+    transform: rotateY(180deg);
+    font-size: 10px;
+  }
+  .img2 {
+    color: greenyellow;
+  }
+  .morty {
+    width: 250px;
+    height: 250px;
+    
+    
+     }
+        .flip-card1 {
+            background-color: transparent;
+        width: 300px;
+        height: 350px;
+        position: relative;
+        perspective: 1000px; 
+      }
+      
+        .flip-card-inner1 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+        .flip-card1:hover .flip-card-inner1 {
+        transform: rotateY(180deg);
+      }
+      
+        .flip-card-front1, .flip-card-back1 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; 
+         backface-visibility: hidden;
+        }      
+      
+      .flip-card-back1 {
+        background-color: rgb(99, 229, 33);
+        color: white;
+        text-decoration: underline white;
+        transform: rotateY(180deg);
+        font-size: 15px;
+      }
+    
+      .img3 {
+        color: greenyellow;
+      }
+      .beth{
+        width: 300px;
+        height: 250px;
+        
+         }
+  
+         .main {
+          display: flex;
+       
+         }
+            .flip-card2 {
+                background-color: transparent;
+            width: 300px;
+            height: 500px;
+            position: relative;
+            perspective: 1000px; 
+          }
+          
+            .flip-card-inner2{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+          }
+          
+            .flip-card2:hover .flip-card-inner2 {
+            transform: rotateY(180deg);
+          }
+          
+            .flip-card-front2, .flip-card-back2 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden; 
+             backface-visibility: hidden;
+            }      
+          
+          .flip-card-back2 {
+            background-color: rgb(99, 229, 33);
+            color: white;
+            text-decoration: underline white;
+            transform: rotateY(180deg);
+            font-size: 15px;
+          }
+      .img4 {
+        color: greenyellow;
+      }
+      .jerry {
+        width: 300px;
+        height: 300px;
+        
+         }
+  
+         .main {
+          display: flex;
+          margin-left: 300px;
+         }
+            .flip-card3 {
+                background-color: transparent;
+            width: 300px;
+            height: 350px;
+            position: relative;
+            perspective: 1000px; 
+          }
+          
+            .flip-card-inner3{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+          }
+          
+            .flip-card3:hover .flip-card-inner3 {
+            transform: rotateY(180deg);
+          }
+          
+            .flip-card-front3, .flip-card-back3 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden; 
+             backface-visibility: hidden;
+            }      
+          
+          .flip-card-back3 {
+            background-color: rgb(99, 229, 33);
+            color: white;
+            text-decoration: underline white;
+            transform: rotateY(180deg);
+            font-size: 15px;
+          }
+
+          .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #272925;
+            color: black;
+        }
+          
